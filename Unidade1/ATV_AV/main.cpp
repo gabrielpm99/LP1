@@ -48,8 +48,6 @@ int main() {
 
     // LOOP QUE LÊ OS COMANDOS ATÉ QUE SEJA DIGITADO "FIM"
     while(cin >> comando) {
-        cout << endl;
-        
         if(comando == "FIM") {
             cout << "ENCERRANDO SISTEMA..." << endl;
             break;
@@ -320,6 +318,8 @@ int main() {
                 }
             }
         }
+
+        cout << endl;
     }
 
     return 0;
